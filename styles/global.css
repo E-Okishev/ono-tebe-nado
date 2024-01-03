@@ -51,24 +51,6 @@ a, p {
   text-transform: uppercase;
 }
 
-.second-heading {
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.third-heading {
-  color: var(--white-color);
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 120%;
-  text-decoration-line: underline;
-  text-transform: uppercase;
-}
-
 ul {
   list-style: none;
 }

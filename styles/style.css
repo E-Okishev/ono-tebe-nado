@@ -31,7 +31,7 @@
   height: 105px;
 }
 
-.header__address {
+.address {
   margin-right: 26px;
   display: flex;
 }
@@ -149,6 +149,11 @@
 }
 
 .lots__heading {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
   margin-left: 40px;
   margin-bottom: 27px;
 }
@@ -185,6 +190,16 @@
 
 .card__title, .card__text {
   z-index: 2;
+}
+
+.card__title {
+  color: var(--white-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -230,6 +245,11 @@
 }
 
 .about__title {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
   margin-top: 98px;
   margin-bottom: 101px;
   letter-spacing: -1px;
