@@ -43,7 +43,7 @@ a, p {
   font-weight: 400;
 }
 
-h1 {
+.main-heading {
   font-size: 100px;
   font-weight: 700;
   line-height: 115%;
@@ -51,7 +51,7 @@ h1 {
   text-transform: uppercase;
 }
 
-h2 {
+.second-heading {
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -59,7 +59,7 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
+.third-heading {
   color: var(--white-color);
   font-size: 22px;
   font-style: normal;

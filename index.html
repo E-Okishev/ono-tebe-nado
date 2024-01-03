@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
   <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
       <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип">
     </a>
   </div>
-  <address class="header__address">
+  <address class="header__address flex-end">
     <ul class="header__address-list">
       <li><a class="header__address-list-item" href="tel:+99995555555">+9 999 555 5555</a></li>
       <li><a class="header__address-list-item" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
@@ -33,7 +34,7 @@
 <main>
   <section class="cover">
     <div class="overlay"></div>
-    <h1 class="cover__title">
+    <h1 class="main-heading cover__title">
       <span class="title aligned-text">о<span class="letter-spacing-extended">но</span></span>
       <span class="title aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
       <span class="title aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span
@@ -42,17 +43,17 @@
     <div class="cover__description">
       <p class="cover__description-text">Аукцион вещей, <span class="word-spacing-extend">в которые никто не
         верил</span></p>
-      <button class="bet-button">Сделать ставку</button>
+      <button type="button" class="bet-button">Сделать ставку</button>
     </div>
   </section>
   <section class="lots">
-    <h2 class="lots__heading">лоты</h2>
+    <h2 class="second-heading lots__heading">лоты</h2>
     <ul class="lots__card-list">
       <li class="lots__card-list-item">
         <a href="#" class="card-link">
           <article class="card card_type_film">
             <div class="overlay"></div>
-            <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
+            <h3 class="third-heading card__title">Фильм режиссёра, который бросил киношколу</h3>
             <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
               знали, что режиссёр — Пол Томас Андерсон?</p>
           </article>
@@ -62,7 +63,7 @@
         <a href="#" class="card-link">
           <article class="card card_type_book">
             <div class="overlay"></div>
-            <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+            <h3 class="third-heading card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
             <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
               древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с
               античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
@@ -74,7 +75,7 @@
         <a href="#" class="card-link">
           <article class="card card_type_picture">
             <div class="overlay"></div>
-            <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+            <h3 class="third-heading card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
             <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
               инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что
               это — одна из революционных работ Кандинского?</p>
@@ -90,7 +91,7 @@
         <img src="./images/logo-white.svg" alt="Логотип" class="about__logo-image">
       </div>
       <div>
-        <h2 class="about__title">Об аукционе</h2>
+        <h2 class="second-heading about__title">Об аукционе</h2>
         <div class="description-block">
           <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
             Наши
@@ -107,7 +108,7 @@
   </section>
 </main>
 <footer class="footer">
-  <address class="footer__address ">
+  <address class="header__address ">
     <ul class="header__address-list">
       <li><a class="header__address-list-item" href="tel:+99995555555">+9 999 555 5555</a></li>
       <li><a class="header__address-list-item" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
